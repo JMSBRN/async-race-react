@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/async-race-ract/static/js/main.0cece2e7.js",
+    "main.js": "/async-race-ract/static/js/main.d91ea188.js",
     "index.html": "/async-race-ract/index.html",
-    "main.0cece2e7.js.map": "/async-race-ract/static/js/main.0cece2e7.js.map"
+    "main.d91ea188.js.map": "/async-race-ract/static/js/main.d91ea188.js.map"
   },
   "entrypoints": [
-    "static/js/main.0cece2e7.js"
+    "static/js/main.d91ea188.js"
   ]
 }
