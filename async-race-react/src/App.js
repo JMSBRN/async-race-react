@@ -7,6 +7,8 @@ import Garage from './pages/Garage';
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
 import Winners from '../src/pages/Winners'
+import Layout from './components/Layout';
+import NoPage from './components/NoPage';
 
 function App() {
 
@@ -51,8 +53,9 @@ function App() {
         }}>
           <Header />
           <Routes>
-               <Route path="/async-race-react" element={<Garage/>}/>
-               <Route path="/async-race-react/winners" element={<Winners/>}/>
+                 <Route exact path="/async-race-react/" element={<Garage/>}/>
+                 <Route path="async-race-react/winners" element={<Winners/>}/>
+                 <Route path="*" element={<NoPage/>} />
           </Routes>
           <Footer />
         </Context.Provider>
