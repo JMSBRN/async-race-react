@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/async-race-react/static/js/main.83111496.js",
+    "main.js": "/async-race-react/static/js/main.7e20b4cb.js",
     "index.html": "/async-race-react/index.html",
-    "main.83111496.js.map": "/async-race-react/static/js/main.83111496.js.map"
+    "main.7e20b4cb.js.map": "/async-race-react/static/js/main.7e20b4cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.83111496.js"
+    "static/js/main.7e20b4cb.js"
   ]
 }
