@@ -51,8 +51,8 @@ function App() {
         }}>
           <Header />
           <Routes>
-            <Route path="/async-race-ract" element={<Garage/>}/>
-            <Route path="/async-race-ract/winners" element={<Winners/>}/>
+               <Route path="/async-race-react" element={<Garage/>}/>
+               <Route path="/async-race-react/winners" element={<Winners/>}/>
           </Routes>
           <Footer />
         </Context.Provider>
