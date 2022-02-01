@@ -1,0 +1,19 @@
+
+.tab  {
+	margin-top: 30px;	
+}
+.tab-header  {
+  display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.tab-header div {
+	color: white;
+}
+.tab-winner {
+	background-color: rgb(43, 43, 43);
+	color: white;
+	border-radius: 15px;
+	padding: 2px;
+}

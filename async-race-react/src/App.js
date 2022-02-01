@@ -4,22 +4,20 @@ import { Context } from './Context';
 import { Routes, Route } from 'react-router-dom'
 import { getCars, getWinners, createCar, deleteCar } from './Api';
 import Garage from './pages/Garage';
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 import Winners from '../src/pages/Winners'
 import Layout from './components/Layout';
 import NoPage from './components/NoPage';
+import './app.css';
 
 function App() {
-
   const [cars, setCars] = useState([]);
   const [winners, setWinners] = useState([]);
-
   const car = {
     name: "New_Car",
     color: "#ff0000"
   };
-
   const handleCreateCar = () => {
     createCar(car).then(() => handleGetCars());
   }
@@ -36,12 +34,10 @@ function App() {
       setWinners(resp.items)
     );
   };
-
   useEffect(() => {
     handleGetCars();
     handeGetWinners();
   }, []);
-
   return (
       <div className="App">
         <Context.Provider value={{
@@ -52,14 +48,15 @@ function App() {
         }}>
           <Header />
           <Routes>
-             <Route path="/async-race-react/" element={<Garage/>}/>
-             <Route path="/async-race-react/winners" element={<Winners/>}/>
-             <Route path="*" element={<NoPage/>}/>
+             <Route path="/async-race-react/" element={<Layout/>}>
+               <Route index element={<Garage/>}/>
+               <Route path="/async-race-react/winners" element={<Winners/>}/>
+               <Route path="*" element={<NoPage/>}/>
+             </Route>
           </Routes>
           <Footer />
         </Context.Provider>
       </div>
   );
 }
-
 export default App;

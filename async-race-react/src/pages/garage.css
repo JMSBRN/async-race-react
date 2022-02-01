@@ -1,0 +1,10 @@
+
+.car {
+	color: white;
+}
+.create-btn,
+.delete-btn {
+	margin-top: 10px;
+	border-radius: 15px;
+	color: white;
+}

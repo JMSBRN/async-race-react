@@ -1,0 +1,29 @@
+@import url('./components/tab.css');
+@import url('../src/pages/garage.css');
+@import url('./components/input.css');
+@import url('../src/footer.css');
+
+* {
+	background-color: rgb(75, 75, 75);
+}
+.garage-btn,
+.winners-btn {
+  width: 150px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: orange;
+}
+.garage-link,
+.winners-link {
+	background-color: transparent;
+	color: rgb(59, 59, 59);
+	text-decoration: none;
+}
+.page-count-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	color: white;
+}
+.title-page {
+	color: white;
+}

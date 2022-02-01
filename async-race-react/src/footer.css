@@ -1,0 +1,12 @@
+
+.footer-btns-container {
+	display: flex;
+	gap: 10px;
+}
+.prev-btn,
+.next-btn  {
+  margin-top: 40px;
+	color: rgb(218, 115, 56);
+	border-radius: 15px;
+}
+

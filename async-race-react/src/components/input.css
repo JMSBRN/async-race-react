@@ -1,0 +1,28 @@
+
+.garage-input-container {
+	width: 80%;
+  margin-top: 20px;
+}
+.garage-input-container button {
+	color: white;
+	border-radius: 15px;
+}
+.car-select-input,
+.car-name-input {
+	font-size: 20px;
+	color: white;
+	border-radius: 15px;
+}
+.garage-input {
+	display: grid;
+	gap: 20px;
+}
+.car-name-input-container,
+.car-update-input-container {
+	display: flex;
+	gap: 10px;
+}
+.garage-btn-container {
+	display: flex;
+	gap: 10px;
+}
