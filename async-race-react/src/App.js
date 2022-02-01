@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Context } from './Context';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { getCars, getWinners, createCar, deleteCar } from './Api';
 import Garage from './pages/Garage';
 import Header from './Header.jsx'
@@ -43,7 +43,6 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
       <div className="App">
         <Context.Provider value={{
           handleCreateCar,
@@ -53,14 +52,13 @@ function App() {
         }}>
           <Header />
           <Routes>
-                 <Route path="*" element={<Layout/>}/>
-                 <Route path="/garage" element={<Garage/>}/>
-                 <Route path="winners" element={<Winners/>}/>
+             <Route path="/async-race-react/" element={<Garage/>}/>
+             <Route path="/async-race-react/winners" element={<Winners/>}/>
+             <Route path="*" element={<NoPage/>}/>
           </Routes>
           <Footer />
         </Context.Provider>
       </div>
-    </BrowserRouter>
   );
 }
 

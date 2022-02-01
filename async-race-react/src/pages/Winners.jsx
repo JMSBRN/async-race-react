@@ -9,8 +9,6 @@ const Winners = () => {
 		
 		<div>
 			<Tab/>
-			<Button/>
-			<Button/>
 		</div>
 		
 		);

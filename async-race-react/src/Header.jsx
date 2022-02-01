@@ -1,13 +1,11 @@
 import React from 'react';
-import Button from './components/Button';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
 	<div>
-		 <button><a href="/garage">Garage</a></button>
-		 <button><a href="/winners">Winners</a></button>
-		<Button/>
-		
+		 <Link to="/async-race-react/">Garage</Link>
+		 <Link to="/async-race-react/winners">Winners</Link>
 	</div>
 	
 	);
