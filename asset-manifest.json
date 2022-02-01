@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/async-race-react/static/js/main.6ca40c24.js",
+    "main.css": "/async-race-react/static/css/main.e9dd19ca.css",
+    "main.js": "/async-race-react/static/js/main.8e7abf71.js",
     "index.html": "/async-race-react/index.html",
-    "main.6ca40c24.js.map": "/async-race-react/static/js/main.6ca40c24.js.map"
+    "main.e9dd19ca.css.map": "/async-race-react/static/css/main.e9dd19ca.css.map",
+    "main.8e7abf71.js.map": "/async-race-react/static/js/main.8e7abf71.js.map"
   },
   "entrypoints": [
-    "static/js/main.6ca40c24.js"
+    "static/css/main.e9dd19ca.css",
+    "static/js/main.8e7abf71.js"
   ]
 }
